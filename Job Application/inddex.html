@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+</head>
+<body style="background-color: chocolate;">
+    <center>
+        <h1><b>Application Form </b></h1>
+    </center>
+    <table>
+    <h3><b>FULL NAME</b></h3>
+    <label>First Name : 
+    <input style="width: 400px;"type="text" id="txt1">
+<br><br>
+Last Name :
+    <input style="width: 400px;" type="text" id="txt3">
+</label> <br><br>
+<label> Gender 
+    <input type="text" id="txt4" list="gen">
+    <datalist id="gen">
+        <option value="Male">
+            <option value="Female">
+                <Option value="non">
+    </datalist>
+   
+</label>
+<h4>DATE OF BIRTH</h3>
+<label for="birthday">DOB
+    <input type="date" id="datae1" name="DOB">
+</label>
+<h4> Contact Details</h4>
+<label >
+    Email: 
+    <input style="width: 400px;" type="email" id="email"><br>
+    Phone Number : 
+    <input style="width: 200px;"type="number" id="txt6">
+    </label>
+    <h4>Address</h4>
+    
+    <label >
+        Line 1: 
+        <input style="width: 400px;" type="text" id="ad1"><br>
+        Line 2:
+        <input style="width: 400px;"type="text" id="ad2"><br>
+        State:
+        <input style="width: 400px;" type="text" id="ad3"><br>
+        pincode:
+        <input style="width: 400px;"type="number" name="pin" id="ad4">
+    </label>
+    <h4>Education/ Experiance</h4>
+    <label for="Education">
+        study
+        <input type="text" id="txt4" list="study">
+        <datalist id="study">
+            <option value="Btech">
+                <option value="Diploma">
+                    <Option value="Degree">
+
+    </label><br>
+    <label for="title">Experiance
+        <input style="margin-right: 10px;" type="number">
+    </label>
+<h4>RESUME</h4>
+<label >upload file 
+    <input  type="file" name="RESUME" id="resum">
+</label><br>
+<p style="text-align: center;width: 10px;">
+    <input style="background-color: rgb(0, 225, 26); height: 50%; width: 10%;" value="Submit">
+
+</p>
+  
+</body>
+</html>
